@@ -1,0 +1,351 @@
+a:active {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff8100;
+	text-decoration: none;
+}
+body {
+	background: black;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 20px;
+}
+#Navigation {
+	background: black;
+	margin: 0px;
+	padding: 12px 0px;
+	width: 100%;
+	border-bottom: 1px solid #ff8100;
+	clear: both;
+}
+#Content {
+	background: black;
+        color: white;
+	padding: 0px;
+        width: 870px;
+        min-height: 500px;
+	position: relative;
+	left: 0px;
+	clear: none;
+	margin: 0px;
+}
+#ArtColumn {
+	width: 490px;
+	color: white;
+	padding: 0px;
+	margin: 10px 0px 0px 10px;
+	float: left;
+	clear: none;
+}
+#PrimaryColumn {
+	width: 470px;
+	color: white;
+	padding: 0px;
+	margin: 10px 0px 0px 10px;
+	float: left;
+	clear: none;
+}
+#SecondaryColumn {
+	color: white;
+	padding: 5px 0 0 0;
+	margin: 10px 0px 0px 5px;
+	width: 335px;
+	float: right;
+	clear: none;
+}
+#FullColumn {
+	width: 810px;
+	color: white;
+	padding: 0px;
+	margin: 10px 0px 0px 10px;
+	clear: none;
+}
+#ContactForm {
+	background: #CCCCCC;
+	margin: 0;
+	padding: 5px 0 0 0;
+	width: 290px;
+	position: static;
+	overflow: visible;
+	float: right;
+	font: normal 11px/15px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+}
+#Credits {
+	background: black;
+	margin: 20px 0px 0px;
+	padding: 0px 0px 10px 0px;
+	width: 100%;
+	position: static;
+	left: 0px;
+	clear: both;
+	border-top: 1px solid #ff8100;
+}
+.copyright {
+	float: left;
+	width: 200px;
+	height: 30px;
+	font: normal 9px/10px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	text-align: left;
+	margin: 0px;
+	padding: 10px 0px 0px 10px;
+	clear: none;
+}
+.ArtCatCredit {
+	float: left;
+	width: 100px;
+	height: 30px;
+	font: normal 9px/10px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	text-align: left;
+	padding: 10px 10px 0px 0px;
+	margin: 0px;
+	clear: none;
+	left: 600px;
+	position: absolute;
+}
+.SiteName {
+	font: normal 18px/10px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	text-align: left;
+	padding: 0px 0px 0px 10px;
+	margin: 0px;
+}
+ul.NavList {
+	font: normal 12px/36px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: white;
+	list-style: none;
+	margin: 0px 0px 0px 275px;
+	padding: 20px 0px 0px 0px;
+	height: 34px;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+ul.NavList li {
+	float: left;
+	height: 34px;
+	padding: 0px 20px 0px 10px;
+	text-align: left;
+	margin: 0px;
+}
+ul.NavList li.CurrentPosition {
+	float: left;
+	height: 34px;
+	padding: 0px 20px 0px 10px;
+	text-align: left;
+	margin: 0px;
+	font-weight: bold;
+	color: #ff8100;
+}
+ul.gallery { 
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 490px;
+}
+
+ul.gallery-details { 
+	list-style: none;
+	margin: -5px 0px 0px 0px;
+	padding: 0px;
+}
+
+ul.artist-details { 
+	list-style: none;
+	margin: -5px 0px 0px 0px;
+	padding: 0px;
+}
+
+ul.gallery li, ul.gallery-details li {
+	float: left; 
+	width: 120px; 
+	height: 130px; 
+	padding: 0px 20px 25px 0px;
+	margin: 0px;
+   	text-align: center;
+   	clear: none;
+}
+
+ul.LinkList { 
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	clear: none;
+}
+
+ul.Linklist li {
+	float: left; 
+	padding: 0px 20px 20px 0px;
+	margin: 0px;
+   	text-align: left;
+	clear: none;
+}
+
+p {
+	font: normal 11px/15px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+	text-align: left;
+	margin: 0px 0px 6px;
+	padding: 0px;
+}
+h1 {
+	font: bold 12px/16px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 4px 0px 8px 0px;
+}
+h2 {
+	font: bold 11px/16px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+	text-align: left;
+	margin: 0px 0px 4px 0px;
+	padding: 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+h3 {
+	font: bold italic 11px/15px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+	text-align: left;
+	margin: 0px 0px 4px 0px;
+	padding: 0px;
+	text-transform: none;
+	letter-spacing: 1px;
+}
+label {
+	margin: 6px 0px 0px 0px;
+	font: normal 11px/18px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+}
+.caption {
+	font: normal 11px/14px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+	text-align: left;
+	margin: 6px 0px 6px 0px;
+	padding: 0px;
+}
+
+.thumb-float {
+        float:left;
+	width: 135px; 
+	height: 165px; 
+	padding: 0px 10px 10px 0px;
+	margin: 0px;
+   	text-align: center;
+   	clear: none;
+}
+
+.thumb-caption {
+	font: normal 10px/14px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+	text-align: center;
+	margin: 3px 0px 9px 0px;
+	padding: 0px;
+}
+
+.required {
+	color: #ff8100;
+}
+img {
+	border: 2px solid black;
+}
+a:hover img {
+	border: 2px solid #ff8100;
+}
+
+.clear {
+	clear: both;
+	line-height: 0;
+}
+
+.exhibition-subtitle, .exhibition-description {
+	font: normal 11px/14px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+	text-align: left;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+.exhibition-dates {
+	font: normal 11px/14px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+	text-align: left;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+
+.exhibition-opening {
+	font: normal 11px/14px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+	text-align: left;
+	margin: 0px 0px 6px 0px;
+	padding: 0px;
+        font-weight: bold;
+}
+
+.exhibition-shortdesc {
+	font: normal 11px/14px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+	text-align: left;
+	margin: 0px 0px 6px 0px;
+	padding: 0px;
+}
+
+.exhibition-image-caption p {
+	text-align: center;
+}
+
+.artist-list {
+	font: bold 12px/16px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	color: #white;
+	text-align: left;
+	margin: 0px 0px 0px 5px;
+	padding: 4px 0px 4px 5px;
+}
+
+p.news-added {
+	font: italic 11px/15px Myriad, Verdana, Arial, Helvetica, sans-serif;
+}
+
+ul.press { 
+	font: normal 11px/15px Myriad, Verdana, Arial, Helvetica, sans-serif;
+	list-style: none;
+	padding: 0px 0px 0px 7px;
+	margin: 0px;
+        text-indent: -7px;
+	clear: none;
+}
+
+ul.press li {
+	padding: 0px 0px 5px 0px;
+	margin-left: 5px;
+   	text-align: left;
+	clear: none;
+}
+
+td.exhibition-box-thumb, td.publication-box-thumb {
+        text-align: center;
+        width: 160px;
+}
+
+.thumb-img {
+  height: 120px;
+  padding-bottom: 5px;
+}
